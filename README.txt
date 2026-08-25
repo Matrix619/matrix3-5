@@ -1,1 +1,0 @@
-Upload index.html to your Vercel project or replace the existing site file.
