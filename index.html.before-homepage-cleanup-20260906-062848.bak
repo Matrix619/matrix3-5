@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -317,7 +317,7 @@ main,
 }
 
 .check-list li::before {
-  content: '&bull;';
+  content: 'â€¢';
   position: absolute;
   left: 8px;
   color: var(--gold);
@@ -495,7 +495,7 @@ main,
     <section class="hero section-shell">
       <div class="container hero-grid">
         <div class="hero-copy">
-          <div class="eyebrow">Memphis &bull; Surrounding Areas</div>
+          <div class="eyebrow">Memphis â€¢ Surrounding Areas</div>
           <h1>Engineered Systems.<br><span>Proven Performance.</span></h1>
           <p class="hero-text">
             Matrix Mechanical Contractor delivers clean, dependable HVAC and mechanical solutions for homes, businesses, and facilities. We are built for strong service today and positioned for bigger commercial and industrial opportunities tomorrow.
@@ -571,10 +571,10 @@ main,
 
       <div class="container card-grid four-up">
         <article class="action-card">
-  <h3>Book Now</h3>
-  <p>Schedule service calls, tune-ups, diagnostics, and other appointments directly through the live Matrix Systems calendar.</p>
-  <a class="text-link" href="https://systems.matrixmechco.com/book">Book Service &rarr;</a>
-</article>
+          <h3>Book Now</h3>
+          <p>Use this for straightforward service calls, tune-ups, diagnostics, and residential scheduling through Jobber later.</p>
+          <a class="text-link" href="#contact">Connect Later</a>
+        </article>
         <article id="estimate" class="action-card gold-line">
           <h3>Request Estimate</h3>
           <p>Ideal for system replacements, larger repairs, commercial jobs, controls work, and custom mechanical pricing.</p>
@@ -641,7 +641,7 @@ main,
           <a class="contact-pill" href="tel:9015095052">901-509-5052</a>
           <a class="contact-pill" href="mailto:matrixllc2@gmail.com">matrixllc2@gmail.com</a>
           <div class="contact-pill static">matrixmechco.com</div>
-          <div class="contact-pill static">Memphis &bull; Surrounding Areas</div>
+          <div class="contact-pill static">Memphis â€¢ Surrounding Areas</div>
         </div>
       </div>
     </section>
