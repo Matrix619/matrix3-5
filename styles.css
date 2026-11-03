@@ -1557,3 +1557,52 @@ body { overflow-x: hidden; }
     font-size: 1.42rem;
   }
 }
+
+
+/* v40 — make non-home mobile menu button clearly visible */
+@media (max-width: 900px) {
+  body:not(.home-v32) .v32-menu {
+    display: inline-flex !important;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    padding: 9px;
+    border: 2px solid var(--v32-gold-bright, #d4af37);
+    border-radius: 10px;
+    background: rgba(212,175,55,.10);
+    box-shadow: 0 8px 22px rgba(0,0,0,.35);
+    position: relative;
+    z-index: 120;
+    cursor: pointer;
+  }
+
+  body:not(.home-v32) .v32-menu span {
+    width: 24px;
+    height: 3px;
+    margin: 3px 0;
+    border-radius: 999px;
+    background: var(--v32-gold-bright, #d4af37);
+    opacity: 1;
+  }
+
+  body:not(.home-v32) .v32-menu:hover,
+  body:not(.home-v32) .v32-menu:focus-visible {
+    background: rgba(212,175,55,.18);
+    border-color: #f0c85a;
+    outline: none;
+  }
+}
+
+@media (max-width: 640px) {
+  body:not(.home-v32) .v32-nav-shell {
+    grid-template-columns: minmax(0,1fr) auto auto;
+    gap: 10px;
+  }
+
+  body:not(.home-v32) .v32-menu {
+    justify-self: end;
+    flex: 0 0 48px;
+  }
+}
